@@ -1,0 +1,65 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+
+}
+
+
+
+@media only screen and (max-width: 787px) {
+
+  .header {
+   position: relative;
+  }
+
+  .header img{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }  
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin-left: 0;
+    margin-top: 0px;
+  }
+  .header_menu ul li a {
+    color: #000;
+    border: 4px solid #000;
+    width: 140px;
+    display: block;
+    float: left;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #fff;
+  }
+
+  .introducao {
+    margin-top: 0;
+    padding-top: 20px;
+    height: 380px;
+  }
+
+  .produtos_icone {
+    padding: 10px;
+  }
+
+  .produtos_lista li p {
+    padding-bottom: 20px;
+  }
+
+  .introducao-interna {
+    margin-top: 0;
+  }
+
+  #foto_passeio {
+    margin-top: 20px;
+  }
+
+  .qualidade img {
+    margin: 40px auto 40px auto;
+  }
+
+} 

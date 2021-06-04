@@ -1,0 +1,176 @@
+/* Produtos */
+
+.interna-produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.titulo_produto_passeio {
+  padding-top: 110px;
+  background: url("../img/produtos/bikcraft-passeio-1.jpg");
+  height: 280px;
+}
+.titulo_produto_esporte {
+  padding-top: 110px;
+  background: url("../img/produtos/bikcraft-esporte-1.jpg");
+  height: 280px;
+}
+.titulo_produto_retro {
+  padding-top: 110px;
+  background: url("../img/produtos/bikcraft-retro-1.jpg");
+  height: 280px;
+}
+
+.icone {
+  background: #000;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.informacao_produtos {
+  background: #000;
+  height: 280px;
+  color: white;
+}
+
+.informacao_produtos p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 20px;
+}
+
+.informacao_produtos .quadrangular {
+  height: 97px;
+  width: 100%;
+  color: black;
+  background: var(--primary);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: bold;
+}
+
+.quadrangular_lista {
+  display: inline-flex;
+  text-align: center;
+}
+
+ul li.item{
+  width: 230px;
+  padding-top: 20px;   
+}
+
+.informacao_produtos .quadrangular img {
+  position: relative;
+  height: 93px;
+  left: 8px;
+  top: -73px;
+}
+
+.ilustracao {
+  margin-bottom: 60px;
+}
+
+.orcamento {
+  height: 580px;
+  background: #000;
+  padding-top: 40px;
+}
+
+.formulario {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.formulario label {
+  padding: 20px 0 10px 0;
+}
+
+.formulario input {
+  width: 400px;
+  height: 40px;
+  border: solid 4px var(--primary);
+  background: #000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0 10px;
+  color: var(--primary);
+}
+
+.formulario input:focus {
+  outline: none;
+  background: var(--primary);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0 10px;
+  color: #000;
+}
+
+.btn-form {
+  border: solid 4px var(--primary);
+  padding: 5px 15px;
+  color: var(--primary);
+  margin-top: 50px;
+  font-weight: bold;
+  text-transform: initial;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.btn-form:hover {
+  box-shadow: 0 0 1px 16px white inset;
+  border: solid 4px var(--primary);
+  color: var(--primary);
+  transition: .2s;
+}
+
+.orcamento_contato {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: white;
+}
+
+.orcamento_contato_black {
+  color: #000;
+}
+
+.orcamento h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--primary);
+  margin: 5px 0 10px 0;
+}
+
+.opcoes {
+  margin-top: 20px;
+}
+
+.opcoes p {
+  margin-bottom: 10px;
+}
+
+.opcoes ul li {
+  font-size: arial;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px; 
+  background: #292929;
+  padding: 0 10px;
+}
+
+.opcoes ul li.bg-primary {
+  background: var(--primary);
+}
+

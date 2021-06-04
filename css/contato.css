@@ -1,0 +1,29 @@
+/* Contato */
+
+.interna-contato {
+  background: url("../img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+
+.contato {
+  background: white;
+  padding-top: 0px;
+}
+
+.contato .formulario,  .contato .formulario input{
+  color: #000;
+  background: #fff;
+}
+
+#nome {
+  padding: 0px 0 10px 0;
+}
+
+.redes_contato {
+  padding-top: 40px;
+}
+
+.mapa {
+  margin-bottom: 60px;
+}

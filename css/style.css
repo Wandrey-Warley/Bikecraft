@@ -6,6 +6,7 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 p {
@@ -63,6 +64,25 @@ p {
   height: 3px;
   border-radius: 20px;
   background: #000;
+  margin: 10px auto;
+}
+.subtitulo_branco {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subtitulo_branco::after, .subtitulo_branco::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  border-radius: 20px;
+  background: #fff;
   margin: 10px auto;
 }
 
@@ -237,6 +257,10 @@ p {
   padding: 20px;
 }
 
+.produtos_icone img{
+  margin: 0 auto;
+}
+
 .call {
   text-align: center;
 }
@@ -372,58 +396,3 @@ p {
   font-weight: bold;
 }
 
-/* Pagina Sobre */
-
-.interna-sobre {
-  background: url("../img/bg-sobre.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.informacao {
-  padding-top: 60px;
-}
-
-.valores {
-  margin-left: 100px;
-}
-
-.lista-de-valores {
-  font-size: 14px;
-  line-height: 30px;
-  font-family: Georgia, 'Times New Roman', serif;
-}
-
-.subtitulo_interno {
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: bold;
-  letter-spacing: .1em;
-  color: #000;
-  text-transform: uppercase;
-}
-
-.subtitulo_interno::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  border-radius: 20px;
-  background: #000;
-  margin: 10px 0;
-}
-
-
-
-.img-equipe {
-  height: 320px;
-  width: 100%;
-  margin-top: 60px;
-}
-
-
-/* Produtos */
-
-.interna-produtos {
-  background: url("../img/bg-produtos.jpg") no-repeat center;
-  background-size: cover;
-}
