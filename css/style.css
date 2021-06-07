@@ -19,6 +19,16 @@ p {
   --primary: #FEC63E;
 }
 
+.display_none {
+  display: none;
+  transition: .3s;
+}
+
+.display_block {
+  display: block;
+  transition: .3s;
+}
+
 .btn {
   border: solid 4px var(--primary);
   padding: 5px 15px;

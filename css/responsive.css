@@ -26,9 +26,37 @@
     height: 100%;
   }
 
+
+  .informacao_produtos {
+    height: 223px;
+  }
+
+  .informacao_produtos p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px 10px;
+  }
+
+  .informacao_produtos .quadrangular {
+    height: 93px;
+  }
+
+  ul li.item {
+    width: 182px;
+  }
+
+  .informacao_produtos .quadrangular img {
+    position: relative;
+    left: 0px;
+    top: -73px;
+    z-index: 1;
+  }
+
+
+
 }
 
-
+/* Estilo para smartphone */
 
 @media only screen and (max-width: 787px) {
 
@@ -102,4 +130,50 @@
   .img-equipe {
     height: 100%;
   }
+
+  /* Produtos */
+
+  .icone {
+    height: fit-content;
+    margin: 0;
+  }
+
+  .ilustracao {
+    display: none;
+  }
+
+  ul li.item {
+    width: 180px;
+    padding: 8px 0;
+    border: solid 1px #000;
+  }
+
+  .informacao_produtos .quadrangular {
+    height: fit-content;
+  }
+
+  .informacao_produtos .quadrangular img {
+    display: none;
+  }
+
+  .produto {
+    margin-bottom: 40px;
+  }
+
+  .formulario input {
+    width: 100%;
+  }
+
+  .orcamento {
+    height: fit-content;
+  }
+
+  .orcamento_contato {
+    padding-top: 20px;
+  }
+
+  .orcamento_contato {
+    padding-bottom: 20px;
+  }
+    
 } 
